@@ -20,7 +20,18 @@ button, input, select, textarea { min-width: 0; font: inherit; }
 button { cursor: pointer; }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 3px solid rgb(44 109 255 / 45%); outline-offset: 3px; }
 
-.site-shell { background: #f7f9fc; color: var(--ink); }
+.site-shell { display: flex; flex-direction: column; background: #f7f9fc; color: var(--ink); }
+.site-shell > .site-header { order: 1; }
+.site-shell > section:first-of-type { order: 2; }
+.site-shell > .trust-strip { order: 3; }
+.site-shell > #tools { order: 4; }
+.site-shell > #services { order: 5; }
+.site-shell > #markets { order: 6; }
+.site-shell > #risk { order: 7; }
+.site-shell > #insights { order: 8; }
+.site-shell > #contact { order: 9; }
+.site-shell > .legal-strip { order: 10; }
+.site-shell > .site-footer { order: 11; }
 .site-shell .text-slate-100 { color: var(--ink) !important; }
 .site-shell .text-slate-400, .site-shell .text-slate-500 { color: var(--muted) !important; }
 .site-shell .text-slate-300 { color: #263e56 !important; }
