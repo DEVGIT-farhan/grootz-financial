@@ -31,10 +31,16 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - name: Prepare website files
+        run: |
+          mkdir -p _site
+          cp -R dist/client/. _site
+          cp -R dist/client/grootz-financial/_next _site/_next
+          test -f _site/index.html
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:
-          path: dist/client
+          path: _site
 
   deploy:
     environment:
