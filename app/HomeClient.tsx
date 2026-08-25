@@ -7,14 +7,21 @@ const CONTACT_EMAIL = "tradewithgrootz@gmail.com";
 const ALTERNATE_PHONE = "8015763504";
 
 const services = [
-  ["01", "Wealth management", "Bring investments, cash flow, protection and family priorities into one considered financial picture."],
-  ["02", "Equity & markets", "Market context, research and trading-account enquiries for investors who want a clearer decision framework."],
-  ["03", "Mutual funds", "Goal-led fund conversations built around time horizon, liquidity needs and comfort with market movement."],
-  ["04", "Protection & insurance", "Review the financial risks that matter to your household, business and long-term plan."],
-  ["05", "Loans & credit", "Understand borrowing options, repayment trade-offs and the documentation needed before you proceed."],
-  ["06", "Portfolio management", "A focused view for larger, more complex portfolios requiring a more deliberate review rhythm."],
-  ["07", "NRI & business", "Coordinate questions around global finances, succession, business capital and India-linked priorities."],
-  ["08", "Financial advisory", "Turn changing goals, tax questions and major life decisions into a practical next conversation."],
+  ["01", "Mutual Funds", "Goal-led fund conversations shaped around your time horizon, liquidity needs and investment comfort."],
+  ["02", "PMS", "Explore portfolio management solutions for larger, professionally managed investment allocations."],
+  ["03", "AIF", "Discuss alternative investment fund opportunities, suitability and the considerations that matter."],
+  ["04", "Broking", "Open a trading-account enquiry and access market participation with informed support."],
+  ["05", "IPO", "Review upcoming public-issue opportunities and receive guidance on the application process."],
+  ["06", "Loans", "Understand borrowing options, repayment trade-offs and the documentation needed before you proceed."],
+  ["07", "Intelligent Advisory Portfolio", "Bring your holdings into a more structured, goal-aware portfolio review conversation."],
+  ["08", "USD Products", "Explore dollar-denominated product options that may fit your global financial plans."],
+  ["09", "Unlisted Shares", "Discuss pre-IPO and unlisted-share opportunities, risks and investment considerations."],
+  ["10", "Commodities", "Understand commodity-market participation and its role within a broader allocation."],
+  ["11", "Fixed Deposits", "Compare fixed-deposit options for planned income, capital stability and defined tenures."],
+  ["12", "NCDs", "Review non-convertible debenture opportunities and the key credit and liquidity considerations."],
+  ["13", "Bonds", "Explore fixed-income instruments for income planning, capital preservation and diversification."],
+  ["14", "Insurance", "Review protection priorities for your family, health, income and long-term financial plan."],
+  ["15", "Private Equity", "Discuss private-market opportunities for eligible investors with a long-term investment view."],
 ];
 
 const insights = [
